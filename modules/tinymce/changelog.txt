@@ -1,3 +1,6 @@
+Version 5.1.4 (TBD--)
+    Add New Plugin (textmark) 来支持合同word内容里面的 输入部分内容token替换.
+
 Version 5.1.4 (TBD)
     Fixed dialog contents disappearing when clicking a checkbox for right-to-left languages #TINY-4518
     Fixed the `legacyoutput` plugin registering legacy formats after editior initialization, causing legacy content to be stripped on the initial load #TINY-4447

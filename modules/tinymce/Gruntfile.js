@@ -7,12 +7,13 @@ let swag = require('@ephox/swag');
 let path = require('path');
 
 let plugins = [
-  'advlist', 'anchor', 'autolink', 'autoresize', 'autosave', 'bbcode', 'charmap', 'code', 'codesample',
-  'colorpicker', 'contextmenu', 'directionality', 'emoticons', 'help', 'fullpage',
-  'fullscreen', 'hr', 'image', 'imagetools', 'importcss', 'insertdatetime', 'legacyoutput', 'link',
-  'lists', 'media', 'nonbreaking', 'noneditable', 'pagebreak', 'paste', 'preview', 'print', 'save',
-  'searchreplace', 'spellchecker', 'tabfocus', 'table', 'template', 'textcolor', 'textpattern', 'toc',
-  'visualblocks', 'visualchars', 'wordcount', 'quickbars',
+  // 'advlist', 'anchor', 'autolink', 'autoresize', 'autosave', 'bbcode', 'charmap', 'code', 'codesample',
+  // 'colorpicker', 'contextmenu', 'directionality', 'emoticons', 'help', 'fullpage',
+  // 'fullscreen', 'hr', 'image', 'imagetools', 'importcss', 'insertdatetime', 'legacyoutput', 
+  'link', 'textmark',
+  // 'lists', 'media', 'nonbreaking', 'noneditable', 'pagebreak', 'paste', 'preview', 'print', 'save',
+  // 'searchreplace', 'spellchecker', 'tabfocus', 'table', 'template', 'textcolor', 'textpattern', 'toc',
+  // 'visualblocks', 'visualchars', 'wordcount', 'quickbars',
 ];
 
 let themes = [
