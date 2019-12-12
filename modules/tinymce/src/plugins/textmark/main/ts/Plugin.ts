@@ -17,5 +17,10 @@ export default function () {
     Controls.setupContextMenu(editor);
     Commands.register(editor);
     Keyboard.setup(editor);
+    return {
+      getAllTextMarks() {
+        return editor.dom.$('a[href="#textmark"]');
+      },
+    };
   });
 }
